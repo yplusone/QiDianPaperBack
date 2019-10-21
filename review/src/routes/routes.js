@@ -6,6 +6,8 @@ import Proposal from "@/pages/Proposal.vue";
 import Login from "@/pages/Login.vue";
 import Sign from "@/pages/Sign.vue";
 import Upload from "@/pages/Upload.vue";
+import Audit from "@/pages/audit.vue";
+import Audituser from "@/pages/audituser.vue";
 const routes = [
   {
     path: "/",
@@ -41,6 +43,16 @@ const routes = [
         path: "Upload",
         name: "论文上传",
         component: Upload
+      },
+      {
+        path: "Audit",
+        name: "审核",
+        component: Audit
+      },
+      {
+        path: "Audituser",
+        name: "我的账户",
+        component: Audituser
       }
     ]
   }

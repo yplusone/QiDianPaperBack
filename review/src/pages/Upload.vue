@@ -3,7 +3,7 @@
     <form>
       <div class="md-card md-theme-default">
         <div class="md-card-header" data-background-color="green">
-          <h4 class="title">注册</h4>
+          <h4 class="title">论文上传</h4>
         </div>
         <div class="md-card-content">
           <div class="md-layout">
