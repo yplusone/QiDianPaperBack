@@ -5,7 +5,7 @@
         <h4 class="title">待审核任务</h4>
       </div>
     </div>
-    <div class="md-card md-theme-default">
+    <!-- <div class="md-card md-theme-default">
       <div class="md-card-content">
         <div class="md-layout">
           <div class="md-layout-item md-small-size-100 md-size-100">
@@ -28,13 +28,13 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
         <div class="md-card md-card-plain md-theme-default">
       <div class="md-card-header" data-background-color="green">
         <h4 class="title">已审核任务</h4>
       </div>
     </div>
-    <div class="md-card md-theme-default">
+    <!-- <div class="md-card md-theme-default">
       <div class="md-card-content">
         <div class="md-layout">
           <div class="md-layout-item md-small-size-100 md-size-100">
@@ -54,7 +54,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

@@ -3,15 +3,15 @@
     <notifications></notifications>
 
     <side-bar title="起点论文审核平台">
-      <sidebar-link to="/audituser">
+      <sidebar-link to="/user">
         <md-icon>person</md-icon>
         <p>我的账户</p>
       </sidebar-link>
 
-      <!-- <sidebar-link to="/Upload">
+      <sidebar-link to="/Upload">
         <md-icon>library_books</md-icon>
         <p>论文上传</p>
-      </sidebar-link> -->
+      </sidebar-link>
             <sidebar-link to="/mission">
         <md-icon>content_paste</md-icon>
         <p>审核任务</p>

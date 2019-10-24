@@ -38,7 +38,9 @@
             </div>
             <div class="md-card-content">
               <p class="category">起点积分排行</p>
-              <h3 class="title">{{qidian_rank}}</h3>
+              <h3 class="title">{{qidian_rank}}
+                <small>位</small>
+              </h3>
             </div>
           </div>
         </div>
@@ -49,7 +51,9 @@
             </div>
             <div class="md-card-content">
               <p class="category">贡献积分排行</p>
-              <h3 class="title">{{gongxian_rank}}</h3>
+              <h3 class="title">{{gongxian_rank}}
+                <small>位</small>
+              </h3>
             </div>
           </div>
         </div>
@@ -63,22 +67,22 @@
             <md-table>
               <md-table-row>
                 <md-table-cell>公钥</md-table-cell>
-                <md-table-cell>0xd6663613743db4ccc3f87c7c79ea0ac06280795c
+                <md-table-cell>{{publickey}}
 </md-table-cell>
               </md-table-row>
 
               <md-table-row>
                 <md-table-cell>姓名</md-table-cell>
-                <md-table-cell>杨佳妮</md-table-cell>
+                <md-table-cell>{{name}}</md-table-cell>
               </md-table-row>
 
               <md-table-row>
                 <md-table-cell>性别</md-table-cell>
-                <md-table-cell>女</md-table-cell>
+                <md-table-cell>{{sex}}</md-table-cell>
               </md-table-row>
               <md-table-row>
                 <md-table-cell>邮箱</md-table-cell>
-                <md-table-cell>yangjiani233@outlook.com</md-table-cell>
+                <md-table-cell>{{email}}</md-table-cell>
               </md-table-row>
             </md-table>
           </md-card-content>
@@ -91,7 +95,7 @@
         <h4 class="title">已上传论文</h4>
       </div>
     </div>
-    <div class="md-card md-theme-default">
+    <!-- <div class="md-card md-theme-default">
       <div class="md-card-content">
         <div class="md-layout">
           <div class="md-layout-item md-small-size-100 md-size-100">
@@ -113,7 +117,7 @@
             </button>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 
@@ -125,10 +129,14 @@ export default {
   data() {
     return {
       loading:true,
-      qidian: 1000,
-      gongxian: 0,
-      qidian_rank: 1,
-      gongxian_rank: 1,
+      qidian: '',
+      gongxian: '',
+      qidian_rank:'', 
+      gongxian_rank: '',
+      publickey:'',
+      name:'',
+      email:'',
+      sex:'',
 
     };
   },

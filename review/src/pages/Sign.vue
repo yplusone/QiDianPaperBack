@@ -74,8 +74,8 @@ import SimpleTable from "@/components";
 export default {
   data() {
     return {
-      publicKey: "742914309237578290=9086y7540923498758"
-    };
+      publicKey: '',
   }
-};
+}
+}
 </script>
